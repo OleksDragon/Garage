@@ -17,6 +17,6 @@ public:
 	void set_name(string name);
 	string get_name()const;
 
-	void show()const;
+	virtual void show()const;
 };
 
