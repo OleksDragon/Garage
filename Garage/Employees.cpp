@@ -51,8 +51,10 @@ void Employees::search_employee(string name)
 	}
 }
 
-void Employees::show() const
+void Employees::show_info() const
 {
-	Employee::show();
-	cout << "Salary: " << salary << endl;
+	for (int i = 0; i < employee.size(); i++)
+	{
+		employee[i]->show();		
+	}
 }

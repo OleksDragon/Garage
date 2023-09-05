@@ -5,13 +5,12 @@ class Companies :
 {
 protected:
     vector<Company*> company;
-public:
-    Companies();
+public:    
     ~Companies();
 
     void add_company(Company* obj);
     void del_company(string name);
     void search_company(string service);
-    void show()const override;
+    void show_info()const;
 };
 

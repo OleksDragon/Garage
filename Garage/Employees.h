@@ -17,6 +17,6 @@ public:
     void add_employee(Employee* obj); // Добавление сотрудника
     void del_employee(string name); // Удаление сотрудника   
     void search_employee(string name); // Поиск сотрудника
-    void show()const override;
+    void show_info()const;
 };
 
