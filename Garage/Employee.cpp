@@ -2,8 +2,9 @@
 
 Employee::Employee()
 {
-    last_name = "no name";
-    first_name = "no name";
+    last_name = "no name"; // фамилия
+    first_name = "no name"; // имя
+    name = "no speciality"; // специальность
 }
 
 Employee::Employee(string last_name, string first_name, string name):Name(name)
