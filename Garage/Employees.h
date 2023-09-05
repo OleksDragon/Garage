@@ -1,4 +1,5 @@
 #pragma once
+//Список сотрудников
 #include "Employee.h"
 class Employees :
     public Employee
@@ -13,9 +14,9 @@ public:
     void set_salary(float salary);
     float get_salary()const;
 
-    void add_employee(Employee* obj);
-    void del_employee(string name);    
-    void search_employee(string name);
+    void add_employee(Employee* obj); // Добавление сотрудника
+    void del_employee(string name); // Удаление сотрудника   
+    void search_employee(string name); // Поиск сотрудника
     void show()const override;
 };
 
