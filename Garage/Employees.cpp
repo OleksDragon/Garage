@@ -1,8 +1,7 @@
 #include "Employees.h"
 
-Employees::Employees(float salary)
-{
-    this->salary = salary;
+Employees::Employees()
+{    
 }
 
 Employees::~Employees()

@@ -151,6 +151,7 @@
     <ClCompile Include="Company.cpp" />
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="Employees.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Name.cpp" />
     <ClCompile Include="Vehicle.cpp" />
   </ItemGroup>
