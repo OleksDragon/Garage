@@ -4,8 +4,8 @@ class Employee :
     public Name
 {
 protected:
-    string last_name;
-    string first_name;
+    string last_name; // Фамилия сотрудника
+    string first_name; // Имя сотрудника
 public:
     Employee();
     Employee(string last_name, string first_name, string name);
