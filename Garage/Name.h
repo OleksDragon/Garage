@@ -1,7 +1,7 @@
 #pragma once
 #include<iostream>
 #include<string>
-#include<vector>>
+#include<vector>
 
 using std::cout;
 using std::endl;
@@ -19,6 +19,6 @@ public:
 	void set_name(string name);
 	string get_name()const;
 
-	virtual void show()const;
+	virtual void show()const=0;
 };
 

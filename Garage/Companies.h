@@ -1,16 +1,16 @@
 #pragma once
 #include "Company.h"
-class Companies :
-    public Company
+class Companies
 {
 protected:
     vector<Company*> company;
-public:    
+public:
+    Companies(); // Конструктор по умолчанию
     ~Companies();
 
     void add_company(Company* obj);
     void del_company(string name);
-    void search_company(string service);
+    Company* search_company(string name);
     void show_info()const;
 };
 

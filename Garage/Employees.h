@@ -1,22 +1,17 @@
 #pragma once
 //Список сотрудников
 #include "Employee.h"
-class Employees :
-    public Employee
+
+class Employees  
 {
 protected:
-    vector<Employee*> employee; // контейнер сотрудников
-    float salary; // зарплата сотрудника
-public:    
-    Employees();
-    ~Employees();
-
-    void set_salary(float salary);
-    float get_salary()const;
+    vector<Employee*> employee; // контейнер сотрудников    
+public:
+    ~Employees();    
 
     void add_employee(Employee* obj); // Добавление сотрудника
-    void del_employee(string name); // Удаление сотрудника   
-    void search_employee(string name); // Поиск сотрудника
+    void del_employee(string name, string last_name); // Удаление сотрудника   
+    Employee* search_employee(string last_name); // Поиск сотрудника
     void show_info()const;
 };
 

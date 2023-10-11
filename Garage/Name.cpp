@@ -19,8 +19,3 @@ string Name::get_name() const
 {
     return name;
 }
-
-void Name::show() const
-{
-    cout << "Name: " << name << endl;
-}

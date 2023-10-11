@@ -2,16 +2,15 @@
 
 Employee::Employee()
 {
-    last_name = "no name"; // фамилия
-    first_name = "no name"; // имя
-    name = "no speciality"; // специальность
-    salary = 0; // зарплата
+    name = "no name"; // имя
+    last_name = "no name"; // фамилия    
+    speciality = "no speciality"; // специальность    
 }
 
-Employee::Employee(string last_name, string first_name, string name, float salary):Name(name)
+Employee::Employee(string name, string last_name, string speciality, float salary):Name(name)
 {
-    this->last_name = last_name;
-    this->first_name = first_name;
+    this->last_name = last_name;    
+    this->speciality = speciality;
     this->salary = salary;
 }
 
@@ -20,9 +19,9 @@ void Employee::set_last_name(string last_name)
     this->last_name = last_name;
 }
 
-void Employee::set_first_name(string first_name)
+void Employee::set_speciality(string speciality)
 {
-    this->first_name = first_name;
+    this->speciality = speciality;
 }
 
 void Employee::set_salary(float salary)
@@ -35,9 +34,9 @@ string Employee::get_last_name() const
     return last_name;
 }
 
-string Employee::get_first_name() const
+string Employee::get_speciality() const
 {
-    return first_name;
+    return speciality;
 }
 
 float Employee::get_salary() const
@@ -46,9 +45,10 @@ float Employee::get_salary() const
 }
 
 void Employee::show() const
-{
-    cout << "Last name: " << last_name << endl;
-    cout << "First name: " << first_name << endl;
-    cout << "Speciality: " << name << endl;
-    cout << "Salary: " << salary << endl;
+{    
+    cout << "Имя: " << name << endl;
+    cout << "Фамилия: " << last_name << endl;    
+    cout << "Специальность: " << speciality << endl;    
+    cout << "Зарплата: " << salary << endl;
+    cout << "--------------------------------\n";
 }

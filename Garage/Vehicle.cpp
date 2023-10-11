@@ -23,6 +23,6 @@ string Vehicle::get_license_plat() const
 
 void Vehicle::show() const
 {
-    cout << "License plat: " << license_plat << endl;
-    cout << "Car model: " << name << endl;
+    cout << "Гос. номер: " << license_plat << endl;
+    cout << "Модель авто: " << name << endl;
 }

@@ -46,9 +46,10 @@ string Company::get_address() const
 }
 
 void Company::show() const
-{
-    cout << "Company: " << name << endl;
-    cout << "Service: " << service << endl;
-    cout << "telephone: " << telephone << endl;
-    cout << "address: " << address << endl;
+{    
+    cout << "Название: " << name << endl;
+    cout << "Услуги: " << service << endl;
+    cout << "Телефон: " << telephone << endl;
+    cout << "Адрес: " << address << endl;
+    cout << "--------------------------------\n";
 }
