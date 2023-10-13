@@ -1,5 +1,6 @@
 #pragma once
 #include "Name.h"
+
 class Vehicle :
     public Name
 {
@@ -12,6 +13,6 @@ public:
     void set_license_plat(string license_plat);
     string get_license_plat()const;
 
-    void show()const override;
+    void show()const override;   
 };
 

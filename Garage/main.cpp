@@ -48,8 +48,8 @@ int main()
         cout << "8. Вывод всех компаний\n";
         cout << "9. Добавить автомобиль\n";
         cout << "10. Удалить автомобиль\n";
-        cout << "11. Cars with Expiring Insurance\n";
-        cout << "12. Cars with Expiring Tech Inspection\n";
+        cout << "11. Автомобили с истекающей страховкой\n";
+        cout << "12. Автомобили с истекающим техосмотром\n";
         cout << "13. Найти автомобиль по номерному знаку\n";
         cout << "14. Вывод всех автомобилей\n\n";
         cout << "0. Выход из программы\n";
@@ -332,8 +332,9 @@ int main()
             system("pause");
             system("cls");
             break;
-        }
-        case 0: {
+        }        
+        case 0: 
+        {
             return 0;
         }
         default: {

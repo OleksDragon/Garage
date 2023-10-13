@@ -1,10 +1,11 @@
 #include "Car.h"
 
-Car::Car() : car(), driver(nullptr), tech_inspection(), police() {}
+Car::Car() : driver(nullptr), tech_inspection(), police() {}
 
 Car::Car(Vehicle car, Employee* driver, const Inspection& tech_inspection, const Insurance& police)
 {
-    this->car = car;
+    this->set_name(car.get_name());
+    this->set_license_plat(car.get_license_plat());
     this->driver = driver;
     this->tech_inspection = tech_inspection;
     this->police = police;
@@ -12,7 +13,8 @@ Car::Car(Vehicle car, Employee* driver, const Inspection& tech_inspection, const
 
 void Car::set_car(Vehicle car)
 {
-    this->car = car;
+    this->set_name(car.get_name());
+    this->set_license_plat(car.get_license_plat());
 }
 
 void Car::set_driver(Employee* driver)
@@ -32,7 +34,7 @@ void Car::set_police(const Insurance& police)
 
 Vehicle Car::get_car() const
 {
-    return car;
+    return *this;
 }
 
 Employee* Car::get_driver() const
@@ -54,7 +56,7 @@ void Car::show_car_info() const
 {
     cout << "=================================\n";
     cout << "Информация о машине:" << endl;
-    car.show();
+    this->show();
     cout << "Водитель:" << endl;
     driver->show();
     cout << "Технический осмотр:" << endl;

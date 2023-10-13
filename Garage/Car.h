@@ -3,11 +3,11 @@
 #include "Employees.h"
 #include "Inspection.h"
 #include "Insurance.h"
+#include"Vehicle.h"
 
-class Car 
+class Car :public Vehicle
 {
-protected:
-    Vehicle car;
+protected:    
     Employee* driver;
     Inspection tech_inspection;
     Insurance police;

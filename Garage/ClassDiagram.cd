@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Car" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABABAwgAAQBAAAAAAAAAACCAAgAEBCAAAAAAAAAAAA=</HashCode>
+      <FileName>Car.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Companies" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAACAAAAAABgIAAIAAAAAAAAAAQ=</HashCode>
+      <FileName>Companies.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Company" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAEAAAABAAAAEAAABAAIABAAABEAABACAAAA=</HashCode>
+      <FileName>Company.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Date" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAIAAAAAAAYAEFQRQAAAQAAgABEAAgAAQAQAQ=</HashCode>
+      <FileName>Date.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Employee" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAgAEAAAAAAAAAACAAAAAAAREAEAAAAQAA=</HashCode>
+      <FileName>Employee.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Employees" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAADAAAAAAAAAAIIAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employees.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompanyNotFoundException" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAIAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Garage" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAwBAAAAAAAAAAASAIAAQAACAAAIAAAA=</HashCode>
+      <FileName>Garage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inspection" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABIAAEAAAAAIAAAAAIFgAAAAAAAAAQAECAAAQAAAQ=</HashCode>
+      <FileName>Inspection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Insurance" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABEAAAAAAAEAIAwQAAEAAAAAAAAgAACAAEABAEAAQ=</HashCode>
+      <FileName>Insurance.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Name" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAACIAAAAA=</HashCode>
+      <FileName>Name.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vehicle" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACBAAAAAAABAAAAAiAAAA=</HashCode>
+      <FileName>Vehicle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="10" />
+</ClassDiagram>
